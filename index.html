@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <link rel="stylesheet" href="style.css">
+    <link rel="shortcut icon" href="img/sc-icon.png">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Notas - São Camilo</title>
+</head>
+<body>
+    <header>
+        <img id="logo" src="img/sc-icon.png" alt="logo">
+        <nav>
+            <h1>Cálculo de Notas - São Camilo</h1>
+        </nav>
+    </header>
+    <div id="div-form">
+        <section>
+            <h1>Calcular nota da P2</h1>
+            <div>
+                <p>Nota da P1
+                    <input type="number" name="p1" id="p1" min="0" max="10">
+                    <button type="submit" onclick="calcular1()" id="btn">Calcular</button>
+                </p>
+                <br>
+                <div id="res"></div>
+            </div>
+            <h1>Calcular média final</h2>
+            <div>
+            <p>
+                Nota da P1
+                <input type="number" name="" id="pUm" min="0" max="10">
+            </p>
+            <p>
+                Nota da P2
+                <input type="number" name="" id="pDois" min="0" max="10">
+                <button type="submit" onclick="calcular2()" id="btn">Calcular</button>
+            </p>
+                <div id="res2"></div>
+            </div>
+        </section>
+    </div>
+</body>
+<script src="script.js"></script>
+</html>
